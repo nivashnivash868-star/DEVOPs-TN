@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevOps TN | Web Development, DevOps &amp; Cloud Solutions</title>
+    <meta name="description" content="DevOps TN builds modern websites, web applications, cloud infrastructure and automated software solutions for businesses." />
+    <meta name="keywords" content="DevOps TN, Web Development, Cloud Solutions, DevOps, CI/CD, Tamil Nadu Software Company, React, FastAPI, AWS, Modern Software Engineering" />
+    <meta name="author" content="DEVOPS TN" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://devopstn.com/" />
+    <meta property="og:title" content="DevOps TN | Web Development, DevOps & Cloud Solutions" />
+    <meta property="og:description" content="DevOps TN builds modern websites, web applications, cloud infrastructure and automated software solutions for businesses." />
+    <meta property="og:image" content="https://devopstn.com/og-image.png" />
+    <meta property="og:site_name" content="DEVOPS TN" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DevOps TN | Web Development, DevOps & Cloud Solutions" />
+    <meta name="twitter:description" content="DevOps TN builds modern websites, web applications, cloud infrastructure and automated software solutions for businesses." />
+    <meta name="twitter:image" content="https://devopstn.com/og-image.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Theme Initialization Script -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('devopstn_theme');
+          if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "DEVOPS TN",
+        "alternateName": "DevOps TN",
+        "url": "https://devopstn.com",
+        "logo": "https://devopstn.com/logo.svg",
+        "slogan": "Build. Deploy. Scale.",
+        "description": "DevOps TN is a technology company focused on building modern digital products, web applications, cloud infrastructure and automated software delivery systems.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Tamil Nadu",
+          "addressCountry": "IN"
+        },
+        "knowsAbout": [
+          "Web Development",
+          "Web Applications",
+          "DevOps & CI/CD",
+          "Cloud Infrastructure",
+          "UI/UX Design",
+          "Software Engineering",
+          "AI & Automation",
+          "FastAPI",
+          "React",
+          "AWS"
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-[#F8FAFC] dark:bg-[#0B0F19] text-slate-900 dark:text-slate-100 font-sans antialiased selection:bg-brand-600 selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
